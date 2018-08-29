@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.hidden_option {display: none;}
+
+body {background-color: #9d5050; font-size: 100%; padding:0rem; margin:0rem; padding-left:0.5rem; padding-right:0.5rem;}
+ul{list-style:none; padding:0rem; margin:0rem;}
+
+.b_t_b_horizontal_bg {display:table;width:100%; height:6.5rem;text-align: center; margin-top: 0.3rem; margin-bottom: 0.3rem}
+.b_t_b_horizontal_items {display: table-cell; vertical-align: middle; background-color: #ffffff; 
+		border-radius: 0.3rem; }
+.b_t_b_horizontal_items:active{background-color: #eecccc;}
+.b_t_b_horizontal_item {display:inline-block; vertical-align: middle; margin-left:0.5rem; margin-right:0.5rem; }
+
+.text_style_01 {color:#9d5050;  font-weight:bold; text-align: left; font-size:1.5rem;}
+.text_style_02 {color:#888888;  font-size:1.5rem;}
+.text_style_03 {color:#509d50;  font-weight:bold; text-align: left; font-size:1.5rem;}
+
+.text_item_padding {padding:0.6rem;}
+.float_left {float: left;}
+.float_right {float: right;}
+
+.icon_led_red {width:5.5rem; height:5.5rem;background-image:url('../image/led_red.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.icon_led_green {width:5.5rem; height:5.5rem;background-image:url('../image/led_green.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.icon_led_yellow {width:5.5rem; height:5.5rem;background-image:url('../image/led_yellow.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.icon_led_blue {width:5.5rem; height:5.5rem;background-image:url('../image/led_blue.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.icon_led_off {width:5.5rem; height:5.5rem;background-image:url('../image/led_off.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.icon_led_all {width:5.5rem; height:5.5rem;background-image:url('../image/led_all.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.icon_led_all_off {width:5.5rem; height:5.5rem;background-image:url('../image/led_all_off.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+
+.no_item {position:relative; text-align: center; margin-top: 10rem;}
+.no_item div{color:#ffd094; font-size:1rem;}
+.logo{width:5.5rem; height:5.5rem;background-image:url('../image/logo.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}

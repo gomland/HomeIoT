@@ -1,0 +1,25 @@
+@charset "utf-8";
+.hidden_option {visibility: hidden;}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #9d5050;
+}
+
+body {background-color: #9d5050; font-size: 100%}
+
+.single_center {display:table; width:100%; text-align: center;}
+
+.b_t_b_horizontal_bg {display:table;width:100%; text-align: center; }
+.b_t_b_horizontal_items {display: table-cell; vertical-align: middle;  padding-top: 3rem; padding-bottom: 4.5rem;}
+.b_t_b_horizontal_item {display:inline-block; vertical-align: middle;}
+.b_t_b_horizontal_items div {color:#ffffff; font-size: 1rem; font-weight:bold;}
+
+.text_style_01 {color:#ffffff; font-size: 2rem; font-style:bold; padding-top: 3.5rem; padding-bottom: 0.1rem;}
+.text_style_02 {color:#ddaaaa; font-size: 0.8rem; font-style:bold;padding-bottom: 4rem;}
+.text_bg {width:13rem; height:2.5rem; padding-left:0.4rem; background-image:url('../image/text_bg_01.png'); background-size: 100% 100%; border: 0rem; outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.padding_01 {padding-top: 0.2rem; padding-bottom: 0.2rem;}
+.login_bg {width:6rem; height:6rem;background-image:url('../image/login_bg.png'); background-size: 100% 100%; border: 0rem;  outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.login_bg:active {background-image:url('../image/login_bg_p.png'); background-size: 100% 100%;}
+
+.check_bg{width:1.5rem; height:1.5rem;background-image:url('../image/auto_check.png'); background-size: 100% 100%; border: 0rem; outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
+.check_bg_p{width:1.5rem; height:1.5rem;background-image:url('../image/auto_check_p.png'); background-size: 100% 100%; border: 0rem; outline:0rem; background-color:rgba( 255, 255, 255, 0 );}
