@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#ffffd094"
+        android:layout_height="40dp"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff9d5050"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Smart Home 장치 제어"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#ff492626"
+        android:layout_height="1dp"/>
+    <WebView
+        android:id="@+id/act_web_obj_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#ff492626"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#ffffd094"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/native_app_icon"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"/>
+        <Button
+            android:id="@+id/native_app_logout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/logout"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>
